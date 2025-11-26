@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para Mi Amor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            opacity: 0;
+            animation: fadeIn 2s ease forwards;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            opacity: 0;
+            animation: fadeIn 2.5s ease forwards;
+            animation-delay: 0.5s;
+        }
+
+        .photo-section {
+            margin-top: 50px;
+        }
+
+        .photo {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 12px;
+            margin: 20px auto;
+            display: block;
+            opacity: 0;
+            transform: scale(0.95);
+            animation: fadeInPhoto 1.8s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInPhoto {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            opacity: 0;
+            animation: fadeIn 3s ease forwards;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Para la mujer que ilumina mi vida</h1>
+        <p>
+            No sé en qué momento del camino apareciste en mi vida,
+            pero desde entonces todo se siente más suave, más ligero,
+            más bonito. <br><br>
+            Tú tienes esa magia que no se explica, solo se siente.
+            Me haces querer ser mejor, me haces querer quedarme.
+            <br><br>
+            Gracias por tu cariño, por tu risa, por tus detalles,
+            por cada momento que compartimos incluso a la distancia.
+            <br><br>
+            Esta página es solo un pequeño pedazo de todo lo que siento por ti.
+            Todo lo que viene, lo quiero vivir contigo.
+        </p>
+
+        <div class="photo-section">
+            <img src="img/salchipapa.jpg" alt="Foto de nosotros" class="photo">
+<img src="img/amaca.jpg" alt="Foto 1" class="photo">
+<img src="img/beso.jpg" alt="Foto 1" class="photo">
+<img src="img/en el colegio.jpg" alt="Foto 1" class="photo">
+<img src="img/flor.jpg" alt="Foto 1" class="photo">
+<img src="img/malecon.jpg" alt="Foto 1" class="photo">
+<img src="img/playa.jpg" alt="Foto 1" class="photo">
+        </div>
+
+        <footer>
+            Con amor,<br>
+            <span style="font-size:1.3rem; opacity:0.9;">Tu novio y fifi junior💘🥰</span>
+        </footer>
+
+    </div>
+
+</body>
+</html>
